@@ -1,1 +1,28 @@
-<p>emplogin works!</p>
+<app-navhome></app-navhome>
+<div class="container">
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <div class="row g-3 mt-4">
+                <div class="col col-12 col-sm-12 col-md-12 col-xl-12 col-xxl-12 text-center">
+                    <h1>Employee Login</h1>
+                </div>
+                <div class="col col-12 col-sm-12 col-md-12 col-xl-12 col-xxl-12">
+                    <label for="" class="form-label">Employee ID</label>
+                    <input name="id" [(ngModel)]="id" type="text" class="form-control">
+                </div>
+                <div class="col col-12 col-sm-12 col-md-12 col-xl-12 col-xxl-12">
+                   <label for="" class="form-label">Password</label>
+                    <input name="password" [(ngModel)]="password" type="password" name="" id="" class="form-control">
+                </div>
+                <div class="col col-12 col-sm-12 col-md-12 col-xl-12 col-xxl-12 text-center">
+                    <button (click)="empLogin()" class="btn btn-success">LOGIN</button>
+                </div>
+                <div class="col col-12 col-sm-12 col-md-12 col-xl-12 col-xxl-12 text-center">
+                    <a routerLink="/emprsg">New Employee Registration</a>
+                </div>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+
