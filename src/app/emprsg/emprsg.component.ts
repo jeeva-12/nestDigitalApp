@@ -24,7 +24,6 @@ export class EmprsgComponent {
   gender=""
   highestdegree=""
   yearofexperience=""
-  
   dateofjioning=""
   username=""
   password=""

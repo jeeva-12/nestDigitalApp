@@ -25,4 +25,8 @@ export class ApiService {
   {
     return this.http.post("https://dummyapifriends.herokuapp.com/adddata",dataToSend)
   }
+  fetchnews=()=>
+  {
+    return this.http.get("https://newsapi.org/v2/top-headlines?country=in&apiKey=9b6ac262eea44bcbbf80ae1b064f631d")
+  }
 }
