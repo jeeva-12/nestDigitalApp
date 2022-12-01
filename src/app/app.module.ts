@@ -17,6 +17,7 @@ import { EmprsgComponent } from './emprsg/emprsg.component';
 import { RouterModule, Routes } from '@angular/router';
 import { FormsModule } from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
+import { CareerComponent } from './career/career.component';
 
 const myRoute:Routes=[
   {
@@ -54,6 +55,10 @@ const myRoute:Routes=[
   {
     path:"Vfriends",
     component:ViewFriendsComponent
+  },
+  {
+    path:"career",
+    component:CareerComponent
   }
 ]
 
@@ -72,7 +77,8 @@ const myRoute:Routes=[
     ViewFriendsComponent,
     NavadminComponent,
     EmploginComponent,
-    EmprsgComponent
+    EmprsgComponent,
+    CareerComponent
   ],
   imports: [
     BrowserModule,
